@@ -9,13 +9,13 @@ public class QUESTION9
         System.out.println("Enter an Number :");
         int num = sc.nextInt();
 
-        if(num>0)
-        {
-            System.out.println("Number is Non-Zero");
-        }
-        else if(num<=0)
+        if(num==0)
         {
             System.out.println("Number is Zero");
+        }
+        else if(num<0)
+        {
+            System.out.println("Number is Not Zero");
         }
         sc.close();
     }
