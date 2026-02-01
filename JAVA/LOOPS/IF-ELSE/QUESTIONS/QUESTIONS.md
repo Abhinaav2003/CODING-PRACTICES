@@ -1,4 +1,4 @@
-Basic Level (Warm-up)
+🟢 Basic Level (Warm-up)
 
 Q1 - Write a Java program to check whether a number is positive or negative.
 
@@ -21,7 +21,7 @@ Q9 - Check whether a number is zero or non-zero.
 Q10 - Check whether a character is uppercase or lowercase.
 
 
-Medium Level (Logic Building)
+🟡 Medium Level (Logic Building)
 
 
 Q11 - Check whether a number is a two-digit number.
@@ -53,7 +53,7 @@ Q19 - Check whether a number is palindrome.
 Q20 - Find profit or loss based on cost price and selling price.
 
 
-Tricky / Interview-Type
+🔵 Tricky / Interview-Type
 
 
 Q21 - Check whether a number is positive, negative, or zero.
