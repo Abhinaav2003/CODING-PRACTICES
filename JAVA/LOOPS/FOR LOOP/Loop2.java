@@ -9,7 +9,9 @@ public class Loop2
 
         for(i=0;i<n;i++)
         {
-            System.out.println("Hello Abhinav Tiwari");
+            System.out.println("Hello World");
         }
+
+
     }
 }
