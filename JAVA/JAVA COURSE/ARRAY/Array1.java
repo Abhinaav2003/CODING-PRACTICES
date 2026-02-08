@@ -1,18 +1,23 @@
+import java.util.Scanner;
+
 public class Array1 
 {
     public static void main(String[] args) 
     {
         int Arr[]  = new int[5];
+        int i;
+        Scanner sc = new Scanner(System.in);
 
-        Arr[0] =  1;
-        Arr[1] =  3;
-        Arr[2] =  5;
-        Arr[3] =  7;
-        Arr[4] =  18;
+        System.out.println("Enter Array Elements");
+        for(i=0;i<Arr.length;i++)
+        {
+            Arr[i] = sc.nextInt();
+        }
 
-        for(int i=0;i<Arr.length;i++)
+        for(i=0;i<Arr.length;i++)
         {
             System.out.println(Arr[i]);
         }
+        sc.close();
     }
 }
