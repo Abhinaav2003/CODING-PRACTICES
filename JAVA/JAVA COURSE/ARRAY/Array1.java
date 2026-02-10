@@ -1,23 +1,25 @@
+import  java.util.Scanner;
+
 public class Array1 
 {
     public static void main(String[] args) 
     {
+        Scanner sc = new Scanner(System.in);
         int Arr[] = new int[10];
+        int i;
 
-        Arr[0]  = 12;
-        Arr[1]  = 44;
-        Arr[2]  = 19;
-        Arr[3]  = 14;
-        Arr[4]  = 71;
-        Arr[5]  = 13;
-        Arr[6]  = 17;
-        Arr[7]  = 41;
-        Arr[8]  = 14;
-        Arr[9]  = 18;
+        System.out.println("Enter Array Elements :");
+        for(i=0;i<Arr.length;i++)
+        {
+            Arr[i] = sc.nextInt();
+        }
 
-        for(int i=0;i<Arr.length;i++)
+        System.out.println("Entered Array Elements :");
+        for(i=0;i<Arr.length;i++)
         {
             System.out.println(Arr[i]);
         }
+
+        sc.close();
     }
 }
