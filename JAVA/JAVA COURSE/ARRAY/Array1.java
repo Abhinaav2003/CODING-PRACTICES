@@ -4,16 +4,16 @@ public class Array1
     {
         int Arr[] = new int[10];
 
-        Arr[0]  = 1;
-        Arr[1]  = 1;
-        Arr[2]  = 1;
-        Arr[3]  = 1;
-        Arr[4]  = 1;
-        Arr[5]  = 1;
-        Arr[6]  = 1;
-        Arr[7]  = 10;
-        Arr[8]  = 1;
-        Arr[9]  = 1;
+        Arr[0]  = 12;
+        Arr[1]  = 44;
+        Arr[2]  = 19;
+        Arr[3]  = 14;
+        Arr[4]  = 71;
+        Arr[5]  = 13;
+        Arr[6]  = 17;
+        Arr[7]  = 41;
+        Arr[8]  = 14;
+        Arr[9]  = 18;
 
         for(int i=0;i<Arr.length;i++)
         {
