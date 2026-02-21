@@ -52,3 +52,6 @@ public class Merge_Sort {
             System.out.print(num + " ");
     }
 }
+
+//   Algorithm	     Best	         Average	    Worst
+//   Merge Sort      O(n log n)      O(n log n)     O(n log n)

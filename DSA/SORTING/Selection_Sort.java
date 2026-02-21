@@ -27,3 +27,6 @@ public class Selection_Sort
             System.out.print(num + " ");
     }
 }
+
+//   Algorithm	        Best	 Average	Worst
+//   Selection Sort     O(n²)    O(n²)      O(n²)

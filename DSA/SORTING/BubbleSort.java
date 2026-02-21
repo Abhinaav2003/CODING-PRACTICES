@@ -30,3 +30,6 @@ public class BubbleSort
         }
     }
 }
+
+//   Algorithm	     Best	  Average	 Worst
+//   Bubble	Sort     O(n)	  O(n²)	     O(n²)

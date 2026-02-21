@@ -45,3 +45,6 @@ public class Quick_Sort
             System.out.print(num + " ");
     }
 }
+
+//   Algorithm	     Best	       Average	      Worst
+//   Quick Sort      O(n log n)    O(n log n)     O(n²)

@@ -26,3 +26,6 @@ public class Insertion_Sort
             System.out.print(num + " ");
     }
 }
+
+//   Algorithm	        Best	 Average	Worst
+//   Insertion Sort     O(n)     O(n²)      O(n²)
