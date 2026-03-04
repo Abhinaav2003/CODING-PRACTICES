@@ -1,16 +1,17 @@
-import java.util.LinkedList;
+import java.util.*;
 
 public class Array1 
 {
-  public static void main(String[] args)
-  {
-    LinkedList<String> cars = new LinkedList<String>();
-    
-    cars.add("Volvo");
-    cars.add("BMW");
-    cars.add("Ford");
-    cars.add("Mazda");
+    public static void main(String[] args) 
+    {
+        int[] intArray;
 
-    System.out.println(cars);
-  }
+        intArray = new int[3];
+
+        intArray[0] = 1;
+        intArray[1] = 2;
+        intArray[2] = 3;
+
+        System.out.println(Arrays.toString(intArray));
+    }
 }
